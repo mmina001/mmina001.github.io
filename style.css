@@ -7,6 +7,14 @@ body,html {
     height:100%;
 }
 
+h1{
+	font-size: 2em;
+}
+
+p,table{
+	font-size: 1.5em;
+}
+
 .container{
     width:80%;
     margin:auto;
@@ -115,6 +123,7 @@ ul.topnav li.right {float: right;}
     padding: 15px;
     border-radius: 4px;
     text-decoration:none;
+	font-size: 1.2em;
   }
   
   #myBtn:hover {
@@ -193,7 +202,6 @@ ul.topnav li.right {float: right;}
 .col-12 {width: 100%;}
 
 table#hours  {
-    font-size: 1.2em;
     text-align: center;
     width:100%;
     margin-bottom: 50px;

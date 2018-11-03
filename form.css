@@ -2,19 +2,17 @@
     box-sizing: border-box;
 }
 
+input,label,textarea,select{
+	font-size: 1.5em;
+}
 input[type=text], input[type=date],input[type=time], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-} select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}select, textarea {
+} 
+select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
