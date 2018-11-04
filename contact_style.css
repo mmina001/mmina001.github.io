@@ -2,7 +2,24 @@
     box-sizing: border-box;
 }
 
-input,label,textarea,select{
+table {
+    text-align: center;
+    width:100%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+input,label,textarea,select {
 	font-size: 1.5em;
 }
 input[type=text], input[type=date],input[type=time], select, textarea {

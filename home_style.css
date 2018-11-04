@@ -1,0 +1,25 @@
+#gallery table{
+    width:100%;
+    border-collapse: collapse; 
+    height:200px;
+}
+
+#gallery th{
+   width:15%;
+   border: 0.25em solid white; 
+   background:red;
+   color: white;
+   
+}
+
+#gallery tr{
+   width:15%;
+   border: 0.25em solid white; 
+   background:red;
+   color: white;
+   
+}
+
+#testimonials{
+   margin-bottom: 100px;
+}

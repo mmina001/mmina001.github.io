@@ -71,36 +71,36 @@ ul.topnav li.right {float: right;}
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
   
-  .fa:hover {
-      opacity: 0.7;
+.fa:hover {
+    opacity: 0.7;
      
-  }
+}
   
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
+}
   
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
+}
   
-  .fa-instagram {
+.fa-instagram {
     background: #125688;
     color: white;
-  }
+}
 
-  footer {
+footer {
     background-color:black;
     width:100%;
     text-align: center;
     bottom: 0;
-  }
+}
 
-  #banner-image {
+#banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("New-York-City-Night-Wallpaper.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -108,13 +108,13 @@ ul.topnav li.right {float: right;}
     width:100%;
     min-height: 350px;
     text-align: center;
-  }
+}
 
-  .banner-text{
+.banner-text{
     color: white;
     font-size: 2em;
     display:inline-block; 
-  }
+}
   
 #myBtn {
     position: fixed;
@@ -131,110 +131,16 @@ ul.topnav li.right {float: right;}
     border-radius: 4px;
     text-decoration:none;
 	font-size: 1.2em;
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: grey;
-  }
-
- #gallery table{
-     width:100%;
-     border-collapse: collapse; 
-     height:200px;
- }
-
- #gallery th{
-    width:15%;
-    border: 0.25em solid white; 
-    background:red;
-    color: white;
-    
- }
-
- #gallery tr{
-    width:15%;
-    border: 0.25em solid white; 
-    background:red;
-    color: white;
-    
- }
-
- #testimonials{
-    margin-bottom: 100px;
- }
-
- * {
-    box-sizing: border-box;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
-.aside {
-    padding: 15px;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.aside p{
-    margin-bottom: 100px;
-}
-
-.img-responsive{
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-}
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-table#hours  {
-    text-align: center;
-    width:100%;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    background-color: red;
-    color:white;
-    padding: 20px;
-    margin-bottom: 100px;
-    border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    
     #banner-image{
         margin-top:127px;
     }
