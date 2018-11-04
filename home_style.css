@@ -1,18 +1,10 @@
-#gallery table{
+table{
     width:100%;
     border-collapse: collapse; 
     height:200px;
 }
 
-#gallery th{
-   width:15%;
-   border: 0.25em solid white; 
-   background:red;
-   color: white;
-   
-}
-
-#gallery tr{
+th,tr{
    width:15%;
    border: 0.25em solid white; 
    background:red;
@@ -22,4 +14,11 @@
 
 #testimonials{
    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px){ 
+    th,tr{
+        width:5%;
+		border: 0.15em solid white; 
+    }
 }
