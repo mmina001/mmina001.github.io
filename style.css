@@ -100,7 +100,7 @@ ul.topnav li.right {float: right;}
     bottom: 0;
   }
 
-  #hero-image {
+  #banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("New-York-City-Night-Wallpaper.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ table#hours  {
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
-    #hero-image{
+    #banner-image{
         margin-top:127px;
     }
 }
