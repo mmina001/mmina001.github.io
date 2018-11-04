@@ -107,6 +107,13 @@ ul.topnav li.right {float: right;}
     background-size: cover;
     width:100%;
     min-height: 350px;
+    text-align: center;
+  }
+
+  .banner-text{
+    color: white;
+    font-size: 2em;
+    display:inline-block; 
   }
   
 #myBtn {
