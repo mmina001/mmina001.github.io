@@ -6,6 +6,7 @@ table{
     width:100%;
     border-collapse: collapse; 
     height:200px;
+	margin-bottom:15px;
 }
 
 th,tr{
@@ -23,6 +24,7 @@ th,tr{
 @media screen and (max-width: 600px){ 
     th,tr{
         width:5%;
-		border: 0.15em solid white; 
+        border: 0.1em solid white; 
+        font-size: 0.7em;
     }
 }

@@ -22,6 +22,7 @@ table {
 input,label,textarea,select {
 	font-size: 1.5em;
 }
+
 input[type=text], input[type=date],input[type=time], select, textarea {
     width: 100%;
     padding: 12px;
@@ -29,6 +30,7 @@ input[type=text], input[type=date],input[type=time], select, textarea {
     border-radius: 4px;
     resize: vertical;
 } 
+
 select, textarea {
     width: 100%;
     padding: 12px;
